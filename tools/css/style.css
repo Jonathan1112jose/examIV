@@ -1,0 +1,99 @@
+/*FONDO DE LA PAGINA*/
+.fondo{
+	background-repeat: no-repeat;
+	background-size: 100%;
+	animation-name: example;
+    animation-duration: 15s;
+}
+/*ANIMACION*/
+@keyframes example {
+  0%   {background: linear-gradient(58deg, rgba(133,13,213,1) 0%, rgba(223,210,55,1) 50%, rgba(111,51,109,1) 100%);}
+  25%  {background: linear-gradient(106deg, rgba(34,193,195,1) 6%, rgba(231,175,70,1) 54%, rgba(45,253,184,1) 100%);}
+  50%  {background: radial-gradient(circle, rgba(34,193,195,1) 6%, rgba(231,70,152,1) 54%, rgba(45,253,184,1) 100%);}
+  75%  {background: linear-gradient(287deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);}
+  100% {background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);}
+}
+/*BARRA DE NAVEGACION*/
+#nav{
+	border-top-left-radius:20px;
+	border-bottom-right-radius: 20px;
+	background-color:#469;
+	text-align: center;
+}
+#nav a{
+	color:#eee;
+	display: inline-flex;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin: 20px;
+	align-items: center;
+	text-decoration: none;
+	width: auto;
+	height:10px;
+	transition: width 1s, height 1s, transform 2s;
+}
+#nav a:hover{
+	color: white;
+	background:linear-gradient(25deg, #fff ,#acf, #469);
+	transform: rotate(1turn);
+	padding-left:15px;
+	width: auto;
+	height: 75px;
+	border-top-left-radius:20px;
+	border-bottom-right-radius: 20px;
+}
+/*LOGO DE LA PAGINA*/
+.icono{
+	position: absolute;
+	top: 20px;
+	right: 70px;
+	width: 100px;
+	height: 100px;
+	transition: width 1s, height 1s, transform 2s;
+}
+.icono:hover{
+	transform: rotate(360deg);
+	width: 150px;
+	height: 150px;
+}
+/*IMAGENES*/
+.img-m{
+	width: 250px;
+	height: 250px;
+	border: 3px solid black;
+	margin: 10px;
+}
+.footer{
+	background:linear-gradient(45deg, #a82,#469);
+	border-radius:15px;
+	border:2px dashed #789;
+}
+
+.item1 { text-align: center;}
+
+.nav{
+	border-top-left-radius:20px;
+	border-bottom-right-radius: 20px;
+	background-color:#469;
+	text-align: center;
+}
+.nav a{
+	color:#eee;
+	display: inline-flex;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin: 20px;
+	align-items: center;
+	text-decoration: none;
+	width: auto;
+	height:10px;
+}
+.nav a:hover{
+	color: white;
+	background:linear-gradient(25deg, #fff ,#acf, #469);
+	padding-left:10px;
+	width: auto;
+	height: auto;
+	border-top-left-radius:20px;
+	border-bottom-right-radius: 20px;
+}
